@@ -4,3 +4,6 @@ This project involves a replicate implementation of the World Worst Video Card, 
 # Simple-VGA-card schematics in Logisim (ground-up version)
 
 ![Simple VGA Card image](https://github.com/kara-abdelaziz/Simple-VGA-card/blob/main/SimpleVGACard.PNG)
+
+# Simple-VGA-card schematics in Logisim (TTL version)
+
