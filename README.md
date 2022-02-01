@@ -19,7 +19,7 @@ This project involves a replicate implementation of the World Worst Video Card, 
 
 # Bill of Materials (BoM)
 The list of all the parts used in this project are as follow :
-1. 1 x 10MHz crystal oscillator
+1. 1 x 10MHz crystal oscillator.
 2. 3 x 7400 chips (Quad NAND gates).
 3. 4 x 7404 chips (Hex Inverters).
 4. 8 x 7430 chips (NAND8 gate).
