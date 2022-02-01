@@ -39,6 +39,6 @@ The list of all the parts used in this project are as follow :
 4. The ROM is not loaded with any image data to display, because there is no device to display to.
 5. The two seven segment displays are not part of the project, they are used for debugging puposes, mainely used to indicate the pixel and line number.
 
-# Website:
-- [www.el-kalam.com](https://www.el-kalam.com/): my personal website for more details, contains this project and others.
+# Website
+- [www.el-kalam.com](https://www.el-kalam.com/) : my personal website for more details, contains this project and others.
 
