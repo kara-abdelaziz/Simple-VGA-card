@@ -17,6 +17,8 @@ This project involves a replicate implementation of the World Worst Video Card, 
 4. SimpleVGACard.png : A schematic of the ground up version of the video card.
 5. SimpleVGACard-TTL.png : A schematic of the TTL 74xx version of the video card.
 6. README : This text file.
+7. side project.pdf : Contains the initial project statement given like an assignment for Computer Science students.
+8. side project.tex : The Latex file implied in the generation of _side project.pdf_ file.
 
 # Bill of Materials (BoM)
 
