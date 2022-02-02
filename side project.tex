@@ -1,0 +1,89 @@
+
+\documentclass[a4paper, french, 12pt]{article}
+
+\usepackage[main=english,french]{babel}
+\usepackage{arabtex}
+\usepackage{utf8}
+\setcode{utf8}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0cm}
+
+
+\pagestyle{plain}
+
+
+\fancyhf{}
+\lhead
+{
+    Université Sétif 1 \\
+    Faculté des Sciences \\
+    Département d'Informatique
+}
+\rhead
+{
+    2\textsuperscript{-ème} année(année 2021/22)\\
+    Architecture des Ordinateurs\\
+    Enseignant Kara Abdelaziz%
+}
+\cfoot{\thepage}
+
+
+\title{\centering \textbf{Video Card Project}}
+\author{}
+\date{}
+
+
+
+
+
+\begin{document}
+
+
+%\setlength{\headheight}{80pt}
+\maketitle
+\thispagestyle{fancy}
+
+\section{Preamble}
+
+The project consist of creating a very simple video card circuit that can normally control a monitor using VGA port, the circuit is not intended to be implemented physically, but in simulation using Logisim logic simulator. The design and the proper working of the circuit is described by the academician Ben Eater, and showed on this website page \underline{https://eater.net/vga}, four videos are presented in this page, but only the first two are mandatory for the realization. The two videos are well explained and normally you will not get any problem to understand the video card working circuit.
+
+\section{Clauses and conditions}
+
+\begin{itemize}
+
+    \item The circuit should be done in Logisim and saved like \emph{.circ} file.
+    \item The dead end for submission is for 31/11/2021 at 00:00, the solution will be put public just after.
+    \item Only the first three valid submissions will be accepted, the fourth and after are not awarded.
+    \item There is no mark bonification reward doing this project, but the first three accepted project would be given a special award.
+    \item All the circuits should be constructed upon logic gates or flipflops, which means the use of library components like registers and counters is prohibited, except for the ROM.
+    \item The use of external libraries is prohibited too.
+    \item The project is to do for one student, it is not groupe project.
+    \item The project to be accepted needs to mimic exactly the functioning of the video card described in video.
+    \item No need to implement the analogic resistor divider for the VGA output, actually Logisim could not simulate analog circuitry.
+    \item If many files are used to implement the project, they all may need to be compressed in one file and sent to my email : \underline{Kara.Abdelaziz@el-kalam.com}.
+    \item No need for filling the ROM with an image data.
+    
+\end{itemize}
+
+\newpage
+
+\section{The award}
+
+A symbolic reward is given for the first three accepted projects, and no mark bonification (pas de note bonus) for the project. The award is a small digital electronic kit for each one like in the photos above, with a small breadboard, some resistors, logic gates, switches, LEDs, and a seven segment display.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{Kit}
+\end{figure}
+
+\vspace{20pt}
+
+\hspace*{\fill} \RL{وفقكم الله}
+
+\end{document}
