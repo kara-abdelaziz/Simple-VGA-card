@@ -37,7 +37,7 @@ The list of all the parts used in this project are as follow :
 2. In circuit _SimpleVGACard-TTL_, 27C512 EPROM was used instead of the 28C256 due its absence from the 74xx library, normally there is no difference using either of the two in the circumstance where the ROM is used in this circuit.
 3. No VGA display was implemented in this simulation considering the screen a part outside the circuit.
 4. The ROM is not loaded with any image data to display, because there is no device to display to.
-5. The two seven segment displays are not part of the project, they are used for debugging puposes, mainely used to indicate the pixel and line number.
+5. The two seven segment displays are not part of the project, they are used for debugging puposes, mainely used to indicate the pixel and line position.
 
 # Website
 - [www.el-kalam.com](https://www.el-kalam.com/) : my personal website for more details, contains this project and others.
